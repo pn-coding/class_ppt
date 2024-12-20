@@ -13,7 +13,7 @@ export const Main = ({ title, lists }) => {
         w="50%"
         letterSpacing={"-2px"}
         fontWeight={"bold"}
-        fontSize={"200px"}
+        fontSize={"180px"}
         lineHeight={"180px"}
         background="linear-gradient(to right, #e55d87, #5fc3e4)"
         backgroundClip={"text"}

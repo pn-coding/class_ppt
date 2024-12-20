@@ -1,6 +1,9 @@
 export const routes = {
   home: "/",
 
+  uxui: "/uxui",
+  uxuiSub: "/uxui/sub",
+
   publish: "/publish",
   publishSub: "/publish/sub",
 
@@ -20,4 +23,7 @@ export const routes = {
 
   python: "/python",
   pythonSub: "/python/sub",
+
+  result: "/result",
+  resultDetail: "/result/detail/:id",
 };

@@ -6,6 +6,9 @@ export const Home = () => {
   return (
     <VStack fontSize={"30px"} h="100vh" p="100px" spacing={10}>
       <Box>
+        <Link to={routes.uxui}>UXUI & Publish</Link>
+      </Box>
+      <Box>
         <Link to={routes.publish}>Publish</Link>
       </Box>
       <Box>
@@ -25,6 +28,10 @@ export const Home = () => {
       </Box>
       <Box>
         <Link to={routes.python}>Python</Link>
+      </Box>
+
+      <Box>
+        <Link to={routes.result}>Result</Link>
       </Box>
     </VStack>
   );

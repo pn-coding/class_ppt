@@ -1,3 +1,123 @@
+export const Uxui_publish = [
+  {
+    mainTitle: [
+      {
+        mainTitle01: "UXUI",
+        mainTitle02: "PUBLISH",
+        mainTitle03: "Class.",
+      },
+    ],
+    mainLists: [
+      "00. INTRO",
+      "01. UXUI",
+      "02. HTML",
+      "03. CSS",
+      "04. BROWSER & WEB",
+    ],
+  },
+  {
+    id: "01",
+    subTitle: "UXUI Design",
+    items: [
+      {
+        title: "Photo Shop",
+        desc: `주로 이미지 보정, 그래픽 디자인, 사진 합성 및 디지털 아트를 위해 사용함`,
+      },
+      {
+        title: "Illustrator",
+        desc: `벡터 그래픽 디자인 프로그램으로 캐릭터, 아이콘, 로고, 타이포그래피 제작등 사용함`,
+      },
+      {
+        title: "Adobe XD",
+        desc: ` UI/UX 디자인 제작 툴로 디자인을 공유하여 협업이 가능함`,
+      },
+      {
+        title: "Figma",
+        desc: `XD와 동일하게 UI/UX 디자인 제작 툴로 
+        클라우드 기반으로 팀원들과 실시간 협업이 가능함`,
+      },
+    ],
+  },
+  {
+    id: "02",
+    subTitle: "HTML",
+    items: [
+      {
+        title: "HTML(Hyper Text Markup Language)",
+        desc: `
+          HTML은 웹 페이지를 구성하기 위한 표준 마크업 언어로써
+          웹 브라우저에게 내용과 구조를 전달하여 웹 페이지를 표시함
+        `,
+      },
+      {
+        title: "HTML 활용",
+        desc: `
+          태그를 사용하여 텍스트, 이미지, 링크 등을 정의하고, .html 확장자로 저장되며, 
+          CSS와 JavaScript와 함께 사용되어 디자인과 기능을 추가함
+        `,
+      },
+      {
+        title: "태그(Tag)",
+        desc: `HTML 문서에서 사용되는 특별한 표식으로 꺾쇠 괄호 "< >"를 사용하며, 
+        여는 태그와 닫는 태그의 쌍으로 구성되고
+        여는 태그는 <태그명> 시작하고, 닫는 태그는 </태그이름> 형식으로 작성됨
+        `,
+      },
+    ],
+  },
+  {
+    id: "03",
+    subTitle: "CSS",
+    items: [
+      {
+        title: "CSS(Cascading Style Sheets)?",
+        desc: `
+          HTML로 작성된 웹 페이지의 디자인과 레이아웃을 지정하는 스타일 시트 언어
+        `,
+      },
+      {
+        title: "디자인",
+        desc: `
+          HTML은 웹 페이지의 구조와 내용을 정의하는데 사용되고, CSS는 이러한 
+          HTML 요소의 스타일을 지정하여 웹 페이지를 시각적으로 꾸밀 수 있음
+        `,
+      },
+      {
+        title: "반응형",
+        desc: `
+          다양한 디바이스와 화면 크기에 대응하는 반응형 웹 디자인을 구현할 수 있음
+        `,
+      },
+    ],
+  },
+  {
+    id: "04",
+    subTitle: "웹 브라우저 & Web",
+    items: [
+      {
+        title: "웹 브라우저(Web browser)",
+        desc: `
+        웹 페이지를 탐색하고 표시하는 소프트웨어로써,
+        컴퓨터나 모바일 기기에서 실행되며, HTML, CSS, JavaScript 등의 
+        웹 기술을 해석하여 웹 페이지를 표시함
+        `,
+      },
+      {
+        title: "Web site",
+        desc: `인터넷을 통해 접속할 수 있는 하나 이상의 웹 페이지들의 모음`,
+      },
+      {
+        title: "결론",
+        desc: `
+          웹 사이트는 정보를 제공 및 공유를 하거나 상업적인 목적을 가지며,
+          기업의 브랜딩, 마케팅, 소셜 네트워크, 뉴스, 엔터테인먼트 등 다양한 목적을 수행함
+        `,
+      },
+    ],
+  },
+];
+/* publish end */
+
 export const PubCon = [
   {
     mainTitle: [
