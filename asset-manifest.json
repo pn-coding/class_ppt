@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/class_ppt/static/js/main.a81f0502.js",
+    "main.js": "/class_ppt/static/js/main.6506afcf.js",
     "index.html": "/class_ppt/index.html",
-    "main.a81f0502.js.map": "/class_ppt/static/js/main.a81f0502.js.map"
+    "main.6506afcf.js.map": "/class_ppt/static/js/main.6506afcf.js.map"
   },
   "entrypoints": [
-    "static/js/main.a81f0502.js"
+    "static/js/main.6506afcf.js"
   ]
 }
