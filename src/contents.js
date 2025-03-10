@@ -10,14 +10,37 @@ export const Uxui_publish = [
     mainLists: [
       "00. INTRO",
       "01. UXUI",
-      "02. HTML",
-      "03. CSS",
-      "04. BROWSER & WEB",
+      "02. DESIGN TOOL",
+      "03. PUBLISHING",
+      "04. HTML",
+      "05. CSS",
+      "06. JS & JQUERY",
+      "07. BROWSER & WEB",
     ],
   },
   {
     id: "01",
-    subTitle: "UXUI Design",
+    subTitle: "UIUX?",
+    items: [
+      {
+        title: "UX (User Experience)",
+        desc: `사용자가 제품이나 서비스를 이용하면서 느끼는 전체적인 경험을 뜻하며, 
+        직관적인 디자인, 편리한 인터페이스, 만족스러운 사용성이 좋은 UX의 핵심 요소`,
+      },
+      {
+        title: "UI (User Interface)",
+        desc: ` 사용자가 제품이나 서비스와 상호작용하는 화면, 버튼, 아이콘 등 시각적인 요소`,
+      },
+      {
+        title: "UIUX",
+        desc: `사용자 인터페이스(UI)와 경험(UX)을 함께 고려하여, 사용자가 편리하고 만족스럽게 
+        제품을 이용할 수 있도록 설계하는 개념`,
+      },
+    ],
+  },
+  {
+    id: "02",
+    subTitle: "Design Tool",
     items: [
       {
         title: "Photo Shop",
@@ -39,7 +62,22 @@ export const Uxui_publish = [
     ],
   },
   {
-    id: "02",
+    id: "03",
+    subTitle: "Publishing",
+    items: [
+      {
+        title: "Web Publising",
+        desc: `디자인된 웹사이트를 HTML, CSS, JavaScript 등을 사용하여 서비스를 위해 실제로 구현하는 작업을 의미함`,
+      },
+      {
+        title: "코딩을 해야되는 이유",
+        desc: `디자인만으로는 웹사이트가 작동하지 않음. 퍼블리싱 코딩을 통해 디자인을 웹 브라우저에서 정상적으로 보이고, 
+        반응형 디자인, 인터랙션, 접근성 등 구현할 수 있음`,
+      },
+    ],
+  },
+  {
+    id: "04",
     subTitle: "HTML",
     items: [
       {
@@ -66,7 +104,7 @@ export const Uxui_publish = [
     ],
   },
   {
-    id: "03",
+    id: "05",
     subTitle: "CSS",
     items: [
       {
@@ -91,7 +129,7 @@ export const Uxui_publish = [
     ],
   },
   {
-    id: "04",
+    id: "06",
     subTitle: "JS & jQuery",
     items: [
       {
@@ -115,7 +153,7 @@ export const Uxui_publish = [
     ],
   },
   {
-    id: "05",
+    id: "07",
     subTitle: "웹 브라우저 & Web",
     items: [
       {
