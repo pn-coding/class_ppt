@@ -1,14 +1,25 @@
-import { Box } from "@chakra-ui/react";
+import { Box, HStack, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { routes } from "../../routes";
+import { imgs } from "../../lib/IMG_URL";
+import { useScroll } from "../../lib/useScroll";
+import { IoIosArrowBack } from "react-icons/io";
 
 export const Result = () => {
-  let id = 0;
-  const IMG_URL = process.env.PUBLIC_URL;
+  useScroll();
   return (
     <>
       <Box pos={"absolute"} top={5} left={50}>
-        <Link to={routes.home}>Home</Link>
+        <Link to={routes.home}>
+          <Box display={"flex"} alignItems={"center"} fontSize={"18px"}>
+            <Text>
+              <IoIosArrowBack />
+            </Text>
+            <Text mt={"4px"} ml={"10px"} fontWeight={700}>
+              Home
+            </Text>
+          </Box>
+        </Link>
       </Box>
       <Box
         p="100px 150px 150px"
@@ -17,39 +28,13 @@ export const Result = () => {
         columnGap={50}
         rowGap={100}
       >
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img src={`${IMG_URL}/img/seta_pc.jpg`} style={{ width: "100%" }} />
-          </Box>
-        </Link>
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img
-              src={`${IMG_URL}/img/nonfiction_pc.jpg`}
-              style={{ width: "100%" }}
-            />
-          </Box>
-        </Link>
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img src={`${IMG_URL}/img/LIG_pc.jpg`} style={{ width: "100%" }} />
-          </Box>
-        </Link>
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img src={`${IMG_URL}/img/cup_pc.jpg`} style={{ width: "100%" }} />
-          </Box>
-        </Link>
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img src={`${IMG_URL}/img/st.jpg`} style={{ width: "100%" }} />
-          </Box>
-        </Link>
-        <Link to={`detail/${id}`}>
-          <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
-            <img src={`${IMG_URL}/img/apt.jpg`} style={{ width: "100%" }} />
-          </Box>
-        </Link>
+        {imgs.map((data) => (
+          <Link to={`detail/${data.id}`} key={data.id}>
+            <Box bgColor={"lightgray"} boxShadow="0 0 10px rgba(0,0,0,0.2)">
+              <img src={data.pcImg} style={{ width: "100%" }} alt="img" />
+            </Box>
+          </Link>
+        ))}
       </Box>
     </>
   );

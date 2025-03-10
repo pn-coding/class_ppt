@@ -92,6 +92,30 @@ export const Uxui_publish = [
   },
   {
     id: "04",
+    subTitle: "JS & jQuery",
+    items: [
+      {
+        title: "JavaScript",
+        desc: `
+          JavaScript는 웹 개발을 위한 프로그래밍 언어로, 브라우저에서 동적인 기능을 구현함.
+        `,
+      },
+      {
+        title: "jQuery",
+        desc: `
+          avaScript를 더 쉽게 사용할 수 있도록 도와주는 라이브러리로, HTML 요소 조작, 이벤트 처리, 애니메이션 등을 간편하게 구현함.
+        `,
+      },
+      {
+        title: "활용",
+        desc: `
+          정적인 UXUI를 애니메이션 처리로 동적으로 구현함.
+        `,
+      },
+    ],
+  },
+  {
+    id: "05",
     subTitle: "웹 브라우저 & Web",
     items: [
       {

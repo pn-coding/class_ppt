@@ -41,7 +41,7 @@ export const Sub = ({ sub }) => {
         fontWeight={100}
         color="gray"
         fontSize={"14px"}
-        position="absolute"
+        position="fixed"
         bottom="50px"
         r="80px"
       >
