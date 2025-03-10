@@ -2,9 +2,9 @@ export const Uxui_publish = [
   {
     mainTitle: [
       {
-        mainTitle01: "UXUI",
-        mainTitle02: "PUBLISH",
-        mainTitle03: "Class.",
+        mainTitle01: "WEB",
+        mainTitle02: "DESIGNER",
+        mainTitle03: "CLASS.",
       },
     ],
     mainLists: [
@@ -141,7 +141,7 @@ export const Uxui_publish = [
       {
         title: "jQuery",
         desc: `
-          avaScript를 더 쉽게 사용할 수 있도록 도와주는 라이브러리로, HTML 요소 조작, 이벤트 처리, 애니메이션 등을 간편하게 구현함.
+          JavaScript를 더 쉽게 사용할 수 있도록 도와주는 라이브러리로, HTML 요소 조작, 이벤트 처리, 애니메이션 등을 간편하게 구현함.
         `,
       },
       {
